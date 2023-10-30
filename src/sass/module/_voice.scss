@@ -6,17 +6,17 @@
 
 .voice::before {
     @include mq(md){
-        background-image: url(../images/common/voice_fish.png);
+        background-image: url(../images/common/price_fish.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         position: absolute;
         content: "";
-        top: rem(-119);
-        left: calc(50% - min(48%, rem(623)));
-        width: rem(301);
+        top: rem(-100);
+        left: calc(50% - min(48%, rem(550)));
+        width: rem(100);
         /* height指定しないと表示されないので、ここは指定する */
-        height: rem(138);
+        height: rem(162);
     }
 }
 

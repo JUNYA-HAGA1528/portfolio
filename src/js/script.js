@@ -120,7 +120,7 @@ jQuery(function ($) {
       speed: 3000,
       allowTouchMove: false,
       autoplay: {
-      delay: 5000,
+      delay: 3500,
       },
   });
   

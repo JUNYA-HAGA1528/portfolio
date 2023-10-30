@@ -7,17 +7,17 @@
 
 .price::before {
     @include mq(md){
-        background-image: url(../images/common/price_fish.png);
+        background-image: url(../images/common/voice_fish.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
         position: absolute;
         content: "";
         top: rem(20);
-        left: calc(50% - min(48%, rem(623)));
-        width: rem(350);
+        left: calc(50% - min(48%, rem(550)));
+        width: rem(100);
         /* height指定しないと表示されないので、ここは指定する */
-        height: rem(160);
+        height: rem(162);
     }
 }
 
